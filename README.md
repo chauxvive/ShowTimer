@@ -1,50 +1,69 @@
-# React + TypeScript + Vite
+![Rocktzar logo](https://res.cloudinary.com/mpauldesigns/image/upload/c_scale,q_100,w_200/v1540421311/rocktzar_red.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ShowTimer ⏳🎭  
 
-Currently, two official plugins are available:
+A **customizable show timer** designed for **live performances**, with built-in **act and intermission tracking**. The timer **freezes** at key moments and **automatically transitions** between sections, ensuring smooth timing for productions.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🔗 **Try it out here**](https://chauxvive.github.io/ShowTimer/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔹 The Project  
 
-- Configure the top-level `parserOptions` property like this:
+This project was built to assist **theater productions, live events, and performances** by providing an easy-to-use **show timer**. It allows users to:  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+✅ **Track act durations & intermissions**  
+✅ **Pause, restart, and reset as needed**  
+✅ **Automatically transition between sections**  
+✅ **Clear readout and summary after curtain down**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🔹 Features  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Precision Timing** – Keeps track of act and intermission durations, ready for typical 2 act structure 
+- **Auto-Advance** – Moves to the next section seamlessly  
+- **Pause & Resume** – Freeze time when needed  
+- **User-Friendly Interface** – Simple setup for any production  
+
+---
+
+## 🔹 Technologies Used  
+
+- **React** (Component-based UI)  
+- **TypeScript** (For type safety)  
+- **Vite** (Fast build tool)  
+- **HTML5 & CSS3** (Modern styling)
+
+---
+## 🔹 How to Run Locally  
+
+1. **Clone the repository**  
+   ```git clone https://github.com/chauxvive/ShowTimer.git```
+
+2. **Navigate to the project folder**
+   
+   ```cd ShowTimer```
+
+4. **Install dependencies**
+
+   ```npm install```
+
+6. **Start the development server**
+   
+   ```npm run dev```
+
+8. **Open the app in your browser**
+   
+Visit:
+   ```http://localhost:5173/```
+
+---
+
+## 🔹 Who Am I?  
+
+I’m a **Software Developer & Marketing Specialist** from Connecticut, open to new roles in **development, project management, and design-driven tech solutions**.  
+
+📩 **Let’s connect!** [LinkedIn](https://www.linkedin.com/in/mpauldesigns/) | [GitHub](https://github.com/chauxvive)  
+
+---
